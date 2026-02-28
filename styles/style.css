@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+/* gets my ice cards aligned */
+.ice-card {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
 body {
     font-family: 'Open Sans', Arial, sans-serif; 
     background-color: #F5F5F5; 
@@ -58,7 +65,7 @@ nav ul li a:hover {
 
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr; /* css tutorial had this on youtube really good */
+    grid-template-columns: 1fr 1fr; /* css tutorial had this on youtube really good */
     gap: 20px;
     padding: 20px;
 }
